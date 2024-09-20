@@ -1,0 +1,16 @@
+电机：黑色24V低压电机
+硬件开发板：HX0025EDC-Launchboard + drv8323 *2
+
+【注：连线之前，将SW1拨至Q1、Q2 】
+
+电机1硬件连接：
+HALL ABC (灰白蓝)-> [Launchboard: H13 EQEP1] 1A 1B 1I
+UVW (红黄绿) -> [DRV8323] A B C
+V+ 棕 -> 5V
+V- 黑 -> GND
+
+电机2硬件连接：
+HALL ABC (灰白蓝)-> [Launchboard: H13 EQEP1] 2A 2B 2I
+UVW (红黄绿) -> [DRV8323] A B C
+V+ 棕 -> 5V
+V- 黑 -> GND
